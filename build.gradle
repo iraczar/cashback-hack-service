@@ -10,10 +10,9 @@ repositories {
 }
 
 dependencies {
-    // Базовые зависимости для тестирования
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.2'
+    testImplementation 'junit:junit:4.13'
 }
 
 test {
-    useJUnitPlatform()
+    useJUnit()
 }
